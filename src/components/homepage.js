@@ -34,20 +34,10 @@ export default class SideMenu extends React.Component {
         <div className="container main-info-section">
           <div className="text">
             <h1>
-              <span>H</span>
-              <span className="m-left">i</span>
-              <span className="m-left">,</span>
+              <span>Hi,</span>
               <br></br>
-              <span>I</span>
-              <span className="m-left">a</span>
-              <span className="m-left">m</span>
-              <span className="name">S</span>
-              <span className="m-left name">h</span>
-              <span className="m-left name">r</span>
-              <span className="m-left name">e</span>
-              <span className="m-left name">y</span>
-              <span className="m-left">,</span>
-              <br></br>
+              <span>I am </span>&nbsp;
+              <span className="name">Shrey</span>
             </h1>
             <p>ReactJs | Redux | HTML5 | CSS | Javascript | AWS | MongoDB</p>
             <a href="#contact">Contact me</a>
@@ -56,8 +46,8 @@ export default class SideMenu extends React.Component {
             <img src="public/profile_picture.png" alt="profileimage"></img>
           </div>
         </div>
-        <div className="container" id="#about">
-          <h1>About me</h1>
+        <div className="container about" id="#about">
+          <h1>About</h1>
           <div className="about-me-info">
             <p>
               Shrey is a final year student doing his Masters in Information
@@ -68,12 +58,25 @@ export default class SideMenu extends React.Component {
             </p>
           </div>
         </div>
-        <div className="work">
+        <div className="container experience" id="#about">
+          <h1>Experience</h1>
+          <div className="experience-info">
+            <h2>RexLabs - Frontend Developer Intern</h2>
+            <span>November 2019 - December 2019</span>
+          </div>
+        </div>
+        <div className="container work">
           <h1>Work</h1>
-          <Button id="react-projects">React Projects</Button>
+          <div className="work-info">
+          
+          </div>
+          </div>
+          <div className="container certificate">
+          <h1>Certificate</h1>
+          
           </div>
           <footer>
-          <div className="resources">
+          <div className="container resources">
            <h2>Profiles</h2>
            <a href="https://github.com/Shreykhanna" id="faGithub">
              <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
