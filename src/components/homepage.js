@@ -1,11 +1,7 @@
 import React from "react";
 import {
-  Nav,
-  Navbar,
-  Image,
-  Jumbotron,
-  Button,
-  Container
+  Button
+  
 } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -39,14 +35,14 @@ export default class SideMenu extends React.Component {
         </div>
         <div className="projects">
           <h2>Side Projects</h2>
-          <a href="https://ecommerce-web-application.herokuapp.com">
-          <Button className="ecommerce">Ecommerce</Button>
+          <a href="https://ecommerce-web-application.herokuapp.com" className="ecommerce">
+          <Button variant="info">Ecommerce</Button>
           </a>
-          <a href="https://marvel-web-app.herokuapp.com">
-          <Button className="marvel">MarvelApp</Button>
+          <a href="https://marvel-web-app.herokuapp.com" className="marvel">
+          <Button variant="info">MarvelApp</Button>
           </a>
-          <a href="https://github.com/Shreykhanna/socialmedia-client">
-          <Button className="socialmedia">SocialMedia</Button>
+          <a href="https://github.com/Shreykhanna/socialmedia-client" className="socialmedia"> 
+          <Button variant="info">SocialMedia</Button>
           </a>
         </div>
         <div className="resources">
