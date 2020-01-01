@@ -45,6 +45,13 @@ export default class SideMenu extends React.Component {
           <Button variant="info">SocialMedia</Button>
           </a>
         </div>
+        <div className="certifications">
+          <h2>Certifications</h2>
+          <h3>AWS Developer Associate Certificate</h3>
+          <a href="https://drive.google.com/file/d/1OBeSD2puDBVo0fCAbXP1IeW7hDzxYZ0-/view?usp=sharing" className="ecommerce">
+          <Button variant="info">Certificate</Button>
+          </a>
+        </div>
         <div className="resources">
           <h2>Profiles</h2>
           <a href="https://github.com/Shreykhanna" id="faGithub">
