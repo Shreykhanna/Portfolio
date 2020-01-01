@@ -21,7 +21,6 @@ export default class SideMenu extends React.Component {
           <h1>Shrey Khanna</h1>
           <h2>ReactJs | Redux | HTML5 | CSS | Javascript | AWS | MongoDB</h2>
         </div>
-
         <div className="profile-image">
           <img src="src/profile_picture.jpg" alt="profileimage"></img>
         </div>
@@ -30,7 +29,7 @@ export default class SideMenu extends React.Component {
           <p>
             Shrey is a final year student doing his Masters in Information
             Technology from Queensland University of Technology, Gardens point.
-            He is very much passionate about web technologies.
+            He is very much passionate about web technologies. Beside coding, Shrey also loves to write on Medium about all the technologies he learn.
           </p>
         </div>
         <div className="experience">
@@ -50,7 +49,6 @@ export default class SideMenu extends React.Component {
           <Button className="socialmedia">SocialMedia</Button>
           </a>
         </div>
-
         <div className="resources">
           <h2>Profiles</h2>
           <a href="https://github.com/Shreykhanna" id="faGithub">
