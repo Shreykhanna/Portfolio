@@ -32,7 +32,7 @@ export default class SideMenu extends React.Component {
               <br></br><br></br>
               <span className="name">Skill Set</span>
             </h1>
-            <p>ReactJs | Redux | HTML5 | CSS | Javascript | AWS | MongoDB</p>
+            <p>ReactJs | Redux | NodeJS | HTML5 | CSS | Javascript | AWS | MongoDB</p>
           </div>
           <div className="profile-image">
             <img src={profileimage} alt="profileimage"></img>
@@ -54,7 +54,7 @@ export default class SideMenu extends React.Component {
           <h1>Experience</h1>
           <div className="experience-info">
             <h2>RexLabs - Frontend Developer Intern</h2>
-            <span>November 2019 - December 2019</span>
+            <h3>November 2019 - December 2019</h3>
           </div>
         </div>
         <div className="container work">
