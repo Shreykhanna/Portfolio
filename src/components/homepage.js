@@ -32,7 +32,7 @@ export default class SideMenu extends React.Component {
               <br></br><br></br>
               <span className="name">Skill Set</span>
             </h1>
-            <p>ReactJs | Redux | NodeJS | HTML5 | CSS | Javascript | AWS | MongoDB</p>
+            <p>ReactJs | Redux | NodeJS | HTML5 | CSS | Javascript | AWS | MongoDB | Git</p>
           </div>
           <div className="profile-image">
             <img src={profileimage} alt="profileimage"></img>
@@ -44,8 +44,8 @@ export default class SideMenu extends React.Component {
             <p>
               Shrey is a final year student doing his Masters in Information
               Technology from Queensland University of Technology, Gardens
-              Point. An easy approachable guy, he is very much passionate about web technologies. 
-              He is a quick learner and hardworking guy and his ultimate aim is to be a frontend developer.
+              Point. An easily approachable,hardworking guy who is willing to contribute to growth of an organisation. 
+              His passion is developing web technologies. He is a quick learner and always keen to learn new technologies. 
               Beside coding, Shrey also loves to write on Medium about all the technologies he learn.
             </p>
           </div>
