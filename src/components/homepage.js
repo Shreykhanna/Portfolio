@@ -1,6 +1,7 @@
 import React from "react";
 import { Button, Image } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+ 
 import {
   faGithub,
   faLinkedin,
@@ -29,7 +30,7 @@ export default class SideMenu extends React.Component {
             <p>ReactJs | Redux | HTML5 | CSS | Javascript | AWS | MongoDB</p>
           </div>
           <div className="profile-image">
-            <img src="public/profile_picture.png" alt="profileimage"></img>
+            <img src="" alt="profileimage"></img>
           </div>
         </div>
         <div className="container about" id="#about">
@@ -67,73 +68,26 @@ export default class SideMenu extends React.Component {
           </div>
           <div className="container certificate">
           <h1>Certificate</h1>
+          <span>AWS Certified Developer - Associate</span>
           <div className="certificate-image">
           <img src="public/aws.png" alt="certificate"></img>
           </div>
           </div>
           <footer>
           <div className="container resources">
-           <h2>Profiles</h2>
-           <a href="https://github.com/Shreykhanna" id="faGithub">
+           <h1>Profiles</h1>
+           <a href="https://github.com/Shreykhanna" className="faGithub">
              <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
            </a>
-           <a href="https://www.linkedin.com/in/khannashrey/" id="faLinkedin">
+           <a href="https://www.linkedin.com/in/khannashrey/" className="faLinkedin">
              <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
            </a>
-           <a href="https://medium.com/@khannashrey07" id="faMedium">
+           <a href="https://medium.com/@khannashrey07" className="faMedium">
             <FontAwesomeIcon icon={faMedium}></FontAwesomeIcon>
          </a>
          </div>
          </footer>
       </div>
-
-      //   <div className="profile-image">
-      //     <Image src="../public/profile_picture.jpg" alt="profileimage"></Image>
-      //   </div>
-      //   <div className="aboutme">
-      //     <h2>About Me</h2>
-      //     <p>
-      //       Shrey is a final year student doing his Masters in Information
-      //       Technology from Queensland University of Technology, Gardens point.He is very much passionate about web technologies.
-      //       Beside coding, Shrey also loves to write on Medium about all the technologies he learn.</p>
-      //   </div>
-      //   <div className="experience">
-      //     <h2>Experience</h2>
-      //     <h3>RexLabs - Frontend Developer Intern</h3>
-      //     <span>November 2019 - December 2019</span>
-      //   </div>
-      //   <div className="projects">
-      //     <h2>Side Projects</h2>
-      //     <a href="https://ecommerce-web-application.herokuapp.com" className="ecommerce">
-      //     <Button variant="info">Ecommerce</Button>
-      //     </a>
-      //     <a href="https://marvel-web-app.herokuapp.com" className="marvel">
-      //     <Button variant="info">MarvelApp</Button>
-      //     </a>
-      //     <a href="https://github.com/Shreykhanna/socialmedia-client" className="socialmedia">
-      //     <Button variant="info">SocialMedia</Button>
-      //     </a>
-      //   </div>
-      //   <div className="certifications">
-      //     <h2>Certifications</h2>
-      //     <h3>AWS Developer Associate Certificate</h3>
-      //     <a href="https://drive.google.com/file/d/1OBeSD2puDBVo0fCAbXP1IeW7hDzxYZ0-/view?usp=sharing" className="ecommerce">
-      //     <Button variant="info">Certificate</Button>
-      //     </a>
-      //   </div>
-      //   <div className="resources">
-      //     <h2>Profiles</h2>
-      //     <a href="https://github.com/Shreykhanna" id="faGithub">
-      //       <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
-      //     </a>
-      //     <a href="https://www.linkedin.com/in/khannashrey/" id="faLinkedin">
-      //       <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
-      //     </a>
-      //     <a href="https://medium.com/@khannashrey07" id="faMedium">
-      //       <FontAwesomeIcon icon={faMedium}></FontAwesomeIcon>
-      //     </a>
-      //   </div>
-      // </div>
     );
   }
 }

@@ -30,12 +30,14 @@ background-color: #181818;
 }
 header h1,
 header a,
+footer h1,
 .text p,
 .about h1,
 .skills h1,
 .experience h1,
 .work h1,
 .certificate h1,
+.certificate h2,
 .contact h1{
 color:#707070
 }
@@ -117,6 +119,7 @@ span.name{
   height: 100vh;
   margin-top:50px;
 }
+footer h1,
 .about h1,
 .work h1,
 .experience h1,
@@ -182,8 +185,7 @@ z-index:1;
   }
   .work-info a.ecommerce{
     padding-left:60px;
-    padding-right:10px;
-    
+    padding-right:10px;   
     }
   .work-info a.marvelapp{
     padding-left:60px;
@@ -193,31 +195,13 @@ z-index:1;
     padding-left:60px;
     padding-right:10px;
   }  
-  
   .certificate-image{
     text-align: center;
   }
- 
-.skills{
-  height: 100vh;
-}
-.skills h1,
-.contact h1{
-text-align: right;
-font-size:10rem;
-opacity: .1;
-}
-.skills-info{
-font-size: 1.4rem;
-color:#BEBEBE;
-max-width: 800px;
-position: relative;
-left:50%;
-right:50%;
-transform: translateX(-50%);
-text-align:center;
-margin-bottom:50px;
-}
+footer h1{
+text-align: center;
+} 
+
 #faGithub {
   padding: 25px 10px 75px 20px;
 }
@@ -236,7 +220,32 @@ margin-bottom:50px;
   padding: 25px 10px 75px 20px;
   background-color: #ED5565;
 }
-
+footer h1{
+  max-width: 900px;
+  background-color: #252627;
+  box-shadow:0 0 1.2rem rgba(0,0,0,.25);
+  padding:60px;
+  position: relative;
+  left:50%;
+  right:50%;
+  transform: translateX(-50%);
+  z-index:1;
+  }
+  footer a.faGithub {
+    left:50%;
+    right:40%;
+    padding: 25px 10px 75px 20px;
+  }
+  footer a.faLinkedin {
+    left:50%;
+    right:40%;
+    padding: 25px 10px 75px 20px;
+  }
+  footer a.faMedium {
+    left:50%;
+    right:40%;
+    padding: 25px 10px 75px 20px;
+  }
 /* .heading {
   text-align: center;
   border: 0.5px solid;
