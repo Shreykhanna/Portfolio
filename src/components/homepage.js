@@ -1,12 +1,16 @@
 import React from "react";
 import { Button, Image } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
- 
 import {
   faGithub,
   faLinkedin,
   faMedium
 } from "@fortawesome/free-brands-svg-icons";
+import profileimage from '../profile_picture.png';
+import certificate from '../aws.png'
+import story_one from "../story_one.png";
+import story_two from "../story_two.png";
+import story_three from "../story_three.png";
 export default class SideMenu extends React.Component {
   render() {
     return (
@@ -26,11 +30,13 @@ export default class SideMenu extends React.Component {
               <br></br>
               <span>I am </span>&nbsp;
               <span className="name">Shrey</span>
+              <br></br><br></br>
+              <span className="name">Skill Set</span>
             </h1>
             <p>ReactJs | Redux | HTML5 | CSS | Javascript | AWS | MongoDB</p>
           </div>
           <div className="profile-image">
-            <img src="" alt="profileimage"></img>
+            <img src={profileimage} alt="profileimage"></img>
           </div>
         </div>
         <div className="container about" id="#about">
@@ -39,9 +45,9 @@ export default class SideMenu extends React.Component {
             <p>
               Shrey is a final year student doing his Masters in Information
               Technology from Queensland University of Technology, Gardens
-              point.He is very much passionate about web technologies. Beside
-              coding, Shrey also loves to write on Medium about all the
-              technologies he learn.
+              Point. An easy approachable guy, he is very much passionate about web technologies. 
+              He is a quick learner and hardworking guy and his ultimate aim is to be a frontend developer.
+              Beside coding, Shrey also loves to write on Medium about all the technologies he learn.
             </p>
           </div>
         </div>
@@ -70,8 +76,22 @@ export default class SideMenu extends React.Component {
           <h1>Certificate</h1>
           <span>AWS Certified Developer - Associate</span>
           <div className="certificate-image">
-          <img src="public/aws.png" alt="certificate"></img>
+          <img src={certificate} alt="certificate"></img>
           </div>
+          </div>
+          <div className="container medium">
+            <h1>Medium</h1>
+            <div className="medium-image">
+            <a href="https://medium.com/@khannashrey07/redux-a-state-managing-container-for-react-ee6de21a2c3b" className="story_one">
+              <img src={story_one} alt="story_one" className="story_one"></img>
+              </a>
+            <a href="https://medium.com/@khannashrey07/deployment-of-web-applications-at-aws-using-elastic-beanstalk-c87111a82900" className="story_two">
+            <img src={story_two} alt="story_two" className="story_two"></img>
+              </a>
+            <a href="https://medium.com/@khannashrey07/how-i-made-the-pizza-order-bot-for-telegram-4e8a8b6b3922" className="story_three">
+            <img src={story_three} alt="story_three" className="story_three"></img>
+              </a>
+      </div>
           </div>
           <footer>
           <div className="container resources">
@@ -82,9 +102,6 @@ export default class SideMenu extends React.Component {
            <a href="https://www.linkedin.com/in/khannashrey/" className="faLinkedin">
              <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
            </a>
-           <a href="https://medium.com/@khannashrey07" className="faMedium">
-            <FontAwesomeIcon icon={faMedium}></FontAwesomeIcon>
-         </a>
          </div>
          </footer>
       </div>
