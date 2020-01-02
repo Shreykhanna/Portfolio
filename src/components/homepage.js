@@ -14,20 +14,7 @@ export default class SideMenu extends React.Component {
           <header>
             <div className="heading">
               <h1>Shrey Khanna</h1>
-            </div>
-            <nav>
-              <ul>
-                <li>
-                  <a href="#aboutme">About me</a>
-                </li>
-                <li>
-                  <a href="#skills"> Skills</a>
-                </li>
-                <li>
-                  <a href="#work">Work</a>
-                </li>
-              </ul>
-            </nav>
+            </div>   
           </header>
         </div>
 
@@ -40,7 +27,6 @@ export default class SideMenu extends React.Component {
               <span className="name">Shrey</span>
             </h1>
             <p>ReactJs | Redux | HTML5 | CSS | Javascript | AWS | MongoDB</p>
-            <a href="#contact">Contact me</a>
           </div>
           <div className="profile-image">
             <img src="public/profile_picture.png" alt="profileimage"></img>
@@ -67,13 +53,23 @@ export default class SideMenu extends React.Component {
         </div>
         <div className="container work">
           <h1>Work</h1>
-          <div className="work-info">
-          
+        <div className="container work-info">
+          <a href="https://ecommerce-web-application.herokuapp.com" className="ecommerce">
+            <Button>Ecommerce</Button>
+           </a>
+            <a href="https://marvel-web-app.herokuapp.com" className="marvelapp">
+            <Button>MarvelApp</Button>
+            </a>
+            <a href="https://github.com/Shreykhanna/socialmedia-client" className="socialmedia">
+            <Button>SocialMedia</Button>
+            </a>
           </div>
           </div>
           <div className="container certificate">
           <h1>Certificate</h1>
-          
+          <div className="certificate-image">
+          <img src="public/aws.png" alt="certificate"></img>
+          </div>
           </div>
           <footer>
           <div className="container resources">

@@ -1,11 +1,8 @@
-.App {
-  width: auto;
-  margin: auto;
-}
+
 
 *{
-  margin:0;
-  padding:0;
+  margin:auto;
+  width:auto;
   box-sizing: border-box;
   font-family: 'PT Sans', sans-serif;
 
@@ -13,7 +10,6 @@
 .container{
   padding:0 100px 0 100px;
 }
-nav ul,
 .main-info-section,
 .work{
    display: flex;
@@ -130,7 +126,7 @@ span.name{
   opacity:.1;
 }
 .about-me-info{
-max-width: 900px;
+max-width: auto;
 background-color: #252627;
 box-shadow:0 0 1.2rem rgba(0,0,0,.25);
 padding:60px;
@@ -166,6 +162,7 @@ z-index:1;
     color:#BEBEBE;
     text-align: center;
   }
+  
   .experience-info span{
     font-size:.9rem;
     color:#BEBEBE;
@@ -177,11 +174,28 @@ z-index:1;
   box-shadow:0 0 1.2rem rgba(0,0,0,.25);
   padding:60px;
   position: relative;
-  top: -70px;
+  top: -60px;
   left:50%;
   right:50%;
   transform: translateX(-50%);
   z-index:1;
+  }
+  .work-info a.ecommerce{
+    padding-left:60px;
+    padding-right:10px;
+    
+    }
+  .work-info a.marvelapp{
+    padding-left:60px;
+    padding-right:10px;
+  }
+  .work-info a.socialmedia{
+    padding-left:60px;
+    padding-right:10px;
+  }  
+  
+  .certificate-image{
+    text-align: center;
   }
  
 .skills{
@@ -215,10 +229,12 @@ margin-bottom:50px;
 }
 .projects.ecommerce {
   padding: 25px 10px 75px 20px;
+  background-color: #ED5565;
   text-align: center;
 }
 .projects.marvelapp {
   padding: 25px 10px 75px 20px;
+  background-color: #ED5565;
 }
 
 /* .heading {
