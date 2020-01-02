@@ -32,7 +32,8 @@ export default class SideMenu extends React.Component {
               <br></br><br></br>
               <span className="name">Skill Set</span>
             </h1>
-            <p>ReactJs | Redux | NodeJS | HTML5 | CSS | Javascript | AWS | MongoDB | Git</p>
+            <p>ReactJs | Redux | NodeJS | HTML5 | CSS | Javascript | AWS |</p>
+            <p> MongoDB | Git</p>
           </div>
           <div className="profile-image">
             <img src={profileimage} alt="profileimage"></img>
