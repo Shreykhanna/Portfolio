@@ -1,10 +1,9 @@
 import React from "react";
-import { Button, Image } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
   faLinkedin,
-  faMedium
 } from "@fortawesome/free-brands-svg-icons";
 import profileimage from '../profile_picture.png';
 import certificate from '../aws.png'
@@ -97,10 +96,10 @@ export default class SideMenu extends React.Component {
           <div className="container resources">
            <h1>Profiles</h1>
            <a href="https://github.com/Shreykhanna" className="faGithub">
-             <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+             <FontAwesomeIcon icon={faGithub} size="10x"></FontAwesomeIcon>
            </a>
            <a href="https://www.linkedin.com/in/khannashrey/" className="faLinkedin">
-             <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
+             <FontAwesomeIcon icon={faLinkedin} size="10x"></FontAwesomeIcon>
            </a>
          </div>
          </footer>

@@ -217,7 +217,6 @@ text-align: center;
 .medium-image a img.story_one{
   padding: 25px 10px 75px 20px;
   width:400px;
-  
 
 }
 .medium-image a img.story_two{
@@ -225,7 +224,7 @@ text-align: center;
   width:400px;
 }
 .medium-image a img.story_three{
-  padding: 10px 10px 75px 20px;
+  padding: 25px 10px 75px 20px;
   width:400px;
 }
 footer h1{
@@ -240,87 +239,13 @@ footer h1{
   z-index:1;
   }
   footer a.faGithub {
-    left:50%;
+    left:30%;
     right:40%;
     padding: 25px 10px 75px 20px;
   }
   footer a.faLinkedin {
-    left:50%;
+    left:30%;
     right:40%;
     padding: 25px 10px 75px 20px;
   }
-  footer a.faMedium {
-    left:50%;
-    right:40%;
-    padding: 25px 10px 75px 20px;
-  }
-/* .heading {
-  text-align: center;
-  border: 0.5px solid;
-  padding: 25px 50px 75px 100px;
-  background-color: orange;
-}
-.profile-image {
-  text-align: center;
-  padding: 25px 50px 75px 100px;
-}
-
-.aboutme {
-  border: 0.5px solid;
-  text-align: center;
-  background-color: chocolate;
-  padding: 25px 10px 75px 20px;
-}
-.experience {
-  border: 0.5px solid;
-  text-align: center;
-  background-color: chocolate;
-  padding: 25px 50px 75px 50px;
-}
-.projects {
-  border: 0.5px solid;
-  text-align: center;
-  background-color: chocolate;
-  padding: 25px 50px 75px 50px;
-}
-.resources {
-  border: 0.5px solid;
-  text-align: center;
-  background-color: chocolate;
-  padding: 25px 10px 75px 20px;
-}
-.ecommerce{
-padding-left:10px;
-padding-right:10px;
-}
-.marvelapp{
-  padding-left:10px;
-  padding-right:10px;
-}
-.socialmedia{
-  padding-left:10px;
-  padding-right:10px;
-}
-.certifications{
-  border: 0.5px solid;
-  text-align: center;
-  background-color: chocolate;
-  padding: 25px 10px 75px 20px;
-}
-
-#faGithub {
-  padding: 25px 10px 75px 20px;
-}
-#faLinkedin {
-  padding: 25px 10px 75px 20px;
-}
-#faMedium {
-  padding: 25px 10px 75px 20px;
-}
-.projects.ecommerce {
-  padding: 25px 10px 75px 20px;
-  text-align: center;
-}
-.projects.marvelapp {
-  padding: 25px 10px 75px 20px;
-} */
+  
