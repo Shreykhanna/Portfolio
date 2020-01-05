@@ -46,7 +46,7 @@ export default class SideMenu extends React.Component {
               Shrey is a final year student doing his Masters in Information
               Technology from Queensland University of Technology, Gardens
               Point. An easily approachable,hardworking guy who is willing to contribute to growth of an organisation. 
-              His passion is developing web technologies. He is a quick learner and always keen to learn new technologies. 
+              His passion is developing web applications. He is a quick learner and always keen to learn new technologies. 
               Beside coding, Shrey also loves to write on Medium about all the technologies he learn.
             </p>
           </div>
