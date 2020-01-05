@@ -117,7 +117,7 @@ span.name{
   margin-top: 50px;
 }
 .about{
-  height: 100vh;
+  height: auto;
   margin-top:50px;
 }
 footer h1,
