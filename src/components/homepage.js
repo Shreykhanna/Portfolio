@@ -61,10 +61,10 @@ export default class SideMenu extends React.Component {
         <div className="container work">
           <h1>Work</h1>
         <div className="container work-info">
-          <a href="https://ecommerce-web-application.herokuapp.com" className="ecommerce">
+          <a href="https://ecommerce-webapp.netlify.com/?_ga=2.112724228.1226390754.1578187949-489494861.1578187949" className="ecommerce">
             <Button>Ecommerce</Button>
            </a>
-            <a href="https://marvel-web-app.herokuapp.com" className="marvelapp">
+            <a href="https://marvel-webapp.netlify.com/?_ga=2.170806688.1226390754.1578187949-489494861.1578187949" className="marvelapp">
             <Button>MarvelApp</Button>
             </a>
             <a href="https://github.com/Shreykhanna/socialmedia-client" className="socialmedia">
