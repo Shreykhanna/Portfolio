@@ -57,6 +57,10 @@ export default class SideMenu extends React.Component {
             <h2>RexLabs - Frontend Developer Intern</h2>
             <h3>November 2019 - December 2019</h3>
           </div>
+          <div className="experience-info">
+            <h2>ChannelSoft - Frontend Developer Intern</h2>
+            <h3>June 2019 - July 2019</h3>
+          </div>
         </div>
         <div className="container work">
           <h1>Work</h1>
