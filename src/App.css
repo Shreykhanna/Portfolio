@@ -344,7 +344,7 @@ footer h1{
         z-index:1;
         }
   } 
-  @media screen and (max-width : 360px){
+  @media screen and (max-width : 800px){
     .main-info-section,
     .work{
    flex-wrap: wrap;
