@@ -254,7 +254,7 @@ footer h1{
     padding: 25px 10px 75px 20px;
   }
 
-@media screen and (max-width:988px){
+@media screen and (min-width:988px){
 .main-info-section,
 .work{
    
@@ -343,27 +343,97 @@ footer h1{
         transform: translateX(-50%);
         z-index:1;
         }
-  }
-  @media screen and (max-width : 768){
+  } 
+  @media screen and (max-width : 360px){
     .main-info-section,
     .work{
    flex-wrap: wrap;
    justify-content: space-between;
 }
+.about h1,
+.experience h1,
+.certificate h1,
+.medium h1,
+.contact h1,
+.work h1{
+  font-size: 6rem;
+  z-index:0;
+  opacity:.1;
+}
+.about-me-info{
+  width:300%;
+  background-color: #252627;
+  box-shadow:0 0 1.2rem rgba(0,0,0,.25);
+  padding:100px;
+  position: relative;
+  top: -40px;
+  left:50%;
+  right:50%;
+  transform: translateX(-20%);
+  z-index:1;
+  }
+  .about-me-info p{
+    font-size:1.2rem;
+    color:#BEBEBE;
+  }
+  .about-me-info p:nth-child(2),
+  .about-me-info p:last-child{
+   margin-top: 30px;
+  }
+  .experience-info{
+    width:300%;
+    background-color: #252627;
+    box-shadow:0 0 1.2rem rgba(0,0,0,.25);
+    padding:60px;
+    position: relative;
+    top: -40px;
+    left:50%;
+    right:50%;
+    transform: translateX(-20%);
+    z-index:1;
+    }
+    .experience-info h2{
+      font-size:1.3rem;
+      color:#BEBEBE;
+      text-align: center;
+    }
+    .experience-info h3{
+      font-size:1.0rem;
+      color:#BEBEBE;
+      text-align: center;
+    }
+    
+    .experience-info span{
+      font-size:.9rem;
+      color:#BEBEBE;
+      margin:auto;
+    }
+    .work-info{
+      width: 300%;
+      background-color: #252627;
+      box-shadow:0 0 1.2rem rgba(0,0,0,.25);
+      padding:60px;
+      position: relative;
+      top: -40px;
+      left:50%;
+      right:50%;
+      transform: translateX(-20%);
+      z-index:1;
+      }
     .work-info a.ecommerce{
-      display: flex;
+      
       padding-left:20px;
-      padding-right:10px;
+      padding-right:5px;
       margin-top: 20px;
       }
     .work-info a.marvelapp{
-      display: flex;
-      padding-left:20px;
+     
+      padding-left:10px;
       padding-right:10px;
       margin-top: 20px;
     }
     .work-info a.socialmedia{
-      display: flex;
+    
       padding-left:10px;
       padding-right:10px;
     }  
