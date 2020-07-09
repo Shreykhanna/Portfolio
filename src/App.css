@@ -344,12 +344,38 @@ footer h1{
         z-index:1;
         }
   } 
+
   @media screen and (max-width : 800px){
+    header{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding-left: 30px;
+    }
     .main-info-section,
     .work{
    flex-wrap: wrap;
    justify-content: space-between;
 }
+.navbar{
+  background-color: #181818;
+  margin-left: 50%;
+  }
+  .profile-image img{
+    width:300px;
+    margin-top: 50px;
+    margin-left: 40%;
+  }
+  .text span{
+    text-align: center;
+    margin-left: 50%;
+  }
+  .text p{
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    font-size: 1.4rem;
+    margin-left: 50%;
+  }
 .about h1,
 .experience h1,
 .certificate h1,
@@ -373,7 +399,7 @@ footer h1{
   z-index:1;
   }
   .about-me-info p{
-    font-size:1.2rem;
+    font-size:1.8rem;
     color:#BEBEBE;
   }
   .about-me-info p:nth-child(2),
@@ -393,7 +419,7 @@ footer h1{
     z-index:1;
     }
     .experience-info h2{
-      font-size:1.3rem;
+      font-size:1.8rem;
       color:#BEBEBE;
       text-align: center;
     }
