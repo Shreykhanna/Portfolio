@@ -365,14 +365,135 @@ footer h1{
       padding-left:10px;
       padding-right:10px;
     }  
+    footer h1{
+      max-width: 900px;
+      background-color: #252627;
+      box-shadow:0 0 1.2rem rgba(0,0,0,.25);
+      padding:60px;
+      position: relative;
+      left:50%;
+      right:50%;
+      transform: translateX(-30%);
+      z-index:1;
+      }
+      footer a.faGithub {
+        left:30%;
+        right:40%;
+        padding: 25px 10px 75px 20px;
+      }
+      footer a.faLinkedin {
+        left:30%;
+        right:40%;
+        padding: 25px 10px 75px 20px;
+      }
   } 
   @media screen and (max-width : 766px){
+    header{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding-left: 30px;
+    }
+    .main-info-section,
+    .work{
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+.navbar{
+  background-color: #181818;
+  margin-left: 50%;
+  }
+  .profile-image img{
+    width:300px;
+    margin-top: 50px;
+    margin-left: 40%;
+  }
+  .text span{
+    text-align: center;
+    margin-left: 50%;
+  }
+  .text p{
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    font-size: 1.4rem;
+    margin-left: 50%;
+  }
+.about h1,
+.experience h1,
+.certificate h1,
+.medium h1,
+.contact h1,
+.work h1{
+  font-size: 6rem;
+  z-index:0;
+  opacity:.1;
+}
+.about-me-info{
+  width:300%;
+  background-color: #252627;
+  box-shadow:0 0 1.2rem rgba(0,0,0,.25);
+  padding:100px;
+  position: relative;
+  top: -40px;
+  left:50%;
+  right:50%;
+  transform: translateX(-20%);
+  z-index:1;
+  }
+  .about-me-info p{
+    font-size:1.8rem;
+    color:#BEBEBE;
+  }
+  .about-me-info p:nth-child(2),
+  .about-me-info p:last-child{
+   margin-top: 30px;
+  }
+  .experience-info{
+    width:300%;
+    background-color: #252627;
+    box-shadow:0 0 1.2rem rgba(0,0,0,.25);
+    padding:60px;
+    position: relative;
+    top: -40px;
+    left:50%;
+    right:50%;
+    transform: translateX(-20%);
+    z-index:1;
+    }
+    .experience-info h2{
+      font-size:1.8rem;
+      color:#BEBEBE;
+      text-align: center;
+    }
+    .experience-info h3{
+      font-size:1.0rem;
+      color:#BEBEBE;
+      text-align: center;
+    }
+    
+    .experience-info span{
+      font-size:.9rem;
+      color:#BEBEBE;
+      margin:auto;
+    }
+    .work-info{
+      width: 800em;
+      background-color: #252627;
+      box-shadow:0 0 1.2rem rgba(0,0,0,.25);
+      padding:60px;
+      position: relative;
+      top: -40px;
+      left:50%;
+      right:50%;
+      transform: translateX(-20%);
+      z-index:1;
+      }
     .work-info a.ecommerce{
       display: flex;
       margin-top: 10px;
       justify-content: center;
-      /* padding-left:10px;
-      padding-right:10px; */
+       /* padding-left:10px;
+      padding-right:10px;  */
       align-items: center;
       }
     .work-info a.marvelapp{
@@ -387,6 +508,30 @@ footer h1{
       align-items: center;
       margin-top: 10px;
     }  
+    .certificate-image img{
+      text-align: center;
+      width: 600px;
+    }
+    .medium-image a img.story_one{
+
+      padding: 25px 10px 75px 20px;
+      width:400px;
+      margin-left: 60px;
+    
+    }
+    .medium-image a img.story_two{
+      display: flex;
+      padding: 25px 10px 75px 20px;
+      width:400px;
+      margin-left: 60px;
+
+    }
+    .medium-image a img.story_three{
+      padding: 25px 10px 75px 20px;
+      width:400px;
+      margin-left: 60px;
+
+    }
 
   }
   
