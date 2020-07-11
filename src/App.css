@@ -509,8 +509,10 @@ footer h1{
       margin-top: 10px;
     }  
     .certificate-image img{
-      text-align: center;
+      display: flex;
       width: 600px;
+      justify-content: center;
+      align-items: center;
     }
     .medium-image a img.story_one{
 
